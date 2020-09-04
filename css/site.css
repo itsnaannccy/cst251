@@ -1,0 +1,37 @@
+body {
+  background-color: lightblue;
+  border-style: solid;
+  border-color: white;
+  /*outline-width: thick;*/
+  outline-offset: 15px;
+}
+
+
+img{                  /* image border credit: W3 Schools*/
+  border-style: solid;
+  border-color: white;
+  outline-width: 5px;
+  display: block;       /* centering image credit: W3 Schools*/
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+p {                     /* margin, outline, font crdit:W3 schools*/
+  font-family: verdana;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  outline-style: double;
+  outline-offset: 10px;
+  outline-color: Azure;
+
+}
+
+li{
+  margin-left: 30px;
+  font-family: verdana;
+  font-size: 20px;
+  /*outline-offset: 5px;*/
+}
