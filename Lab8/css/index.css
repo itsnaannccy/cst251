@@ -42,6 +42,7 @@ body {
 
 p.special {
   color: black;
+  text-align: center;
 }
 
 p.special:hover {
