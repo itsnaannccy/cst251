@@ -1,0 +1,50 @@
+div#content {
+  padding: 50px;
+  background-color: White;
+  border: solid 1px #333333;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+body {
+  font-family: 'Baloo Tammudu 2', cursive;
+  background-color: #28d4cb;
+  padding: 20px;
+  font-size:100%;
+}
+
+/* Style your image, so the size changes when you hover over it */
+.image img {
+  float: right;
+  margin: 20px;
+  width: 400px;
+  border-style: solid;
+  border-color: #28d4cb;
+  /*transition: transform .2s; */
+}
+
+.image img:hover {
+  transform: scale(1.5);
+}
+
+/* Style every element of a particular class */
+.title {
+  font-family: 'BioRhyme Expanded';
+  font-size: 18px;
+  margin-left:0px;
+  text-decoration: underline;
+}
+
+/* Style a particular type of element with a class name */
+.main-header {
+  font-family: 'BioRhyme Expanded';
+  font-size: 22px;
+}
+
+p.special {
+  color: black;
+}
+
+p.special:hover {
+  transform: scale(2.5);
+}

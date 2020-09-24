@@ -15,15 +15,18 @@ div#content {
     border: solid 1px #333333;
 }
 
-.image{
+.image img{
   float: right;
   margin: 20px;
   width: 400px;
-  padding: 20px;
+  /* padding: 20px; */
   border-style: solid;
   border-color: LightSeaGreen
-   /* outline-width: 5px; */
+   outline-width: 5px;
+}
 
+.image img{
+  display: block;
 }
 
 .title{
