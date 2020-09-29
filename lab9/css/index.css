@@ -1,0 +1,51 @@
+div#content {
+  padding: 20px;
+  margin: 50px;
+  background-color: FloralWhite;
+  border: ridge 5px #333333;
+  /* padding-bottom: 100px; */
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  /* background-color: DarkGreen; */
+  background-image: linear-gradient(#006400, darkseagreen);
+  padding: 20px;
+  font-size:18px;
+}
+
+/* Style your image, so the size changes when you hover over it*/
+.image img {
+  float: right;
+  margin: 20px;
+  width: 350px;
+  border: solid 5px DarkSeaGreen;
+}
+
+.image img:hover {
+  transform: scale(1.5);
+}
+
+/* Style every element of a particular class */
+.title {
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  margin-left:0px;
+}
+
+/* Style a particular type of element with a class name */
+.main-header {
+  font-family: 'Josefin Slab', serif;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p.special {
+  color: black;
+  text-align: center;
+}
+
+p.special:hover {
+  transform: scale(2.5);
+}
