@@ -1,0 +1,53 @@
+div#content {
+  padding: 20px;
+  margin: 50px;
+  background-color: ghostwhite;
+  border: ridge 5px #333333;
+  /* padding-bottom: 100px; */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  background-image: linear-gradient(indigo, lavender);
+  padding: 20px;
+  font-size: 18px;
+}
+
+.image img {
+  float: right;
+  margin: 20px;
+  width: 300px;
+  border: solid 5px DarkBlue;
+}
+
+.image img:hover {
+  transform: scale(1.5);
+}
+
+.title {
+  font-family: 'Supermercado One', serif;
+  font-size: 30px;
+  margin-left:0px;
+  letter-spacing: 2px;
+  color: SlateGrey;
+}
+
+.main-header {
+  font-family: 'Vollkorn SC', serif;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  word-spacing:5px;
+  text-transform: lowercase;
+  color: DarkBlue;
+}
+
+p.special {
+  color: black;
+  text-align: center;
+}
+
+p.special:hover {
+  transform: scale(2.5);
+}
