@@ -45,7 +45,7 @@ p {
   text-decoration: underline;
   color:DimGrey;
   text-transform: uppercase;
-  word-spacing:-10px;
+  word-spacing:10px;
 }
 
 .title{
