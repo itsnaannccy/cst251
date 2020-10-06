@@ -3,6 +3,7 @@ div#content{
   margin: 10px;
   background-color: LightCyan;
   border: ridge 10px white;
+
 }
 
 body {
@@ -11,28 +12,25 @@ body {
   font-family: verdana;
   font-size: 20px;
   word-spacing:7px;
-  /* margin:30px; */
+  margin:30px;
 }
 
 .image img{
   float: right;
   margin: 20px;
-  width: 300px;
+  width: 250px;
   border: ridge 10px white;
-  position: relative;
-  /* scroll-margin-top: 5rem; */
+  /* position:relative;
+  display:inline-block; */
 }
 
 p {
   margin: 10px;
   font-family:  'Bellota';
   font-size: 22px;
-  /* border: 3px ridge white; */
-  /* background-color: lightblue; */
 }
 
 .assignments-major-section {
-  /* margin-left: 30px; */
   font-family: 'IBM Plex Mono';
   font-size: 20px;
   list-style-type: none;
@@ -40,17 +38,31 @@ p {
   padding: 0;
   word-spacing:-3px;
   position: absolute;
-  padding: 8px;
-  top:700px;
-  left: 10px;
-  right: 10px;
+  display: block
+  top:0px;
+  left: 30px;
+  right: 30px;
   border: 10px ridge Azure;
   background-color: LightCyan;
 }
 
-a {
-  /* padding: 1px; */
-  /* background-color: MintCream; */
+a, a:link{
+  color: Black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: SteelBlue;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0px;
 }
 
 .main-title{
@@ -67,6 +79,14 @@ a {
   font-family: 'Gruppo';
   font-size: 50px;
   text-align: center;
+  word-spacing:15px;
+  text-transform: capitalize;
+}
+
+.labs{
+  font-family: 'Gruppo';
+  font-size: 40px;
+  /* text-align: left; */
   word-spacing:15px;
   text-transform: capitalize;
 }
