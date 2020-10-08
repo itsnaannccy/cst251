@@ -1,0 +1,113 @@
+div#content {
+  padding: 20px;
+  margin: 50px;
+  background-color: ghostwhite;
+  border: ridge 5px #333333;
+  padding-bottom: 110px;
+}
+
+#links {
+  position: sticky;
+  top:0;
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  margin: 20px;
+  padding: 8px;
+}
+
+a {
+  padding: 10px;
+  background-color: #dddddd;
+}
+
+body {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+  color: black;
+  background-color:RosyBrown ;
+  padding: 20px;
+  font-size: 22px;
+  margin:0px;
+}
+
+/* Style all your images so they are around 100 to 150 pixels wide.
+Style all your divs so they are 30% wide. */
+/* Style your center-img div so your image is centered horizontally. */
+#center-img img{
+  width: 150px;
+  border: solid 5px Tan;
+  margin-bottom: 20px;
+}
+
+div#center-img img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+  /* margin: 20px;*/
+}
+
+/* style your center-both div so that the image is centered both vertically and horizontally. */
+#center-both {
+ height: 200px;
+ position: relative;
+}
+
+div#center-both img{
+  float: none;
+  width: 150px;
+  border: solid 5px #D2B48C;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Style your floated div so it floats left or right. */
+div#floated {
+  padding: 20px;
+  margin: 50px;
+  width: 30%;
+  background-color: PeachPuff;
+  border: ridge 5px #333333;
+  padding-bottom: 20px;
+  float: right;
+  font-family: 'Chilanka', cursive;
+  }
+
+/* Style your center-horz div so the text inside is centered. */
+div#center-horz {
+  width: 30%;
+  margin: 50px;
+  text-align: center;
+  padding: 20px;
+  background-color: MistyRose;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 5px solid black;
+  font-family: 'Chilanka', cursive;
+}
+
+.title {
+  font-family: 'Handlee', cursive;
+  font-size: 30px;
+  margin:0px;
+  letter-spacing: 2px;
+  color: #878583;
+}
+
+.main-header {
+  font-family: 'DM Serif Display', serif;
+  font-size: 40px;
+  text-align: center;
+  /* text-decoration: underline; */
+  padding-bottom: 2px;        /*Gap between text and nderline credit: GeeksforGeeks  */
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  width: fit-content;
+  word-spacing:5px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px #000000;
+  color: Maroon;
+}

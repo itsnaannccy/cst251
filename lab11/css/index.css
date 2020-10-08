@@ -7,10 +7,11 @@
 }
 
 #links {
+  position: sticky;
+  top:0;
   font-family: 'DM Serif Display', serif;
   text-align: center;
   margin: 20px;
-  position: sticky;
   padding: 8px;
 }
 
