@@ -1,0 +1,64 @@
+div#content {
+  padding: 20px;
+  margin: 50px;
+  background-color: ghostwhite;
+  border: ridge 5px #333333;
+  padding-bottom: 110px;
+}
+
+#links {
+  position: sticky;
+  top:0;
+  font-family: 'Handlee', cursive;
+  text-align: center;
+  margin: 20px;
+  padding: 8px;
+}
+
+#image img{
+  float: none;
+  margin: 20px;
+  width: 700px;
+  border: solid 2px black;
+}
+
+a {
+  padding: 10px;
+  background-color: #dddddd;
+}
+
+body {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: bold;
+  color: black;
+  background-color:SkyBlue ;
+  padding: 20px;
+  font-size: 22px;
+  margin:0px;
+}
+
+.title {
+  font-family: 'Handlee', cursive;
+  font-size: 30px;
+  margin:0px;
+  letter-spacing: 2px;
+  color: #878583;
+}
+
+.main-header {
+  font-family: 'Handlee' serif;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  word-spacing:5px;
+  /* text-transform: uppercase; */
+  text-shadow: 2px 2px 3px #000000;
+  color: SkyBlue;
+}
+
+iframe#fake {
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}

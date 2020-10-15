@@ -1,0 +1,155 @@
+div#content {
+  /* padding: 20px; */
+  margin: 0px;
+  background-color: white;
+  padding-bottom: 150px;
+}
+/* ************************************************************************** */
+/* small bluecloud */
+div#center-img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+  width: 30px;
+}
+
+img {
+ width: 25px;
+ position: relative;
+}
+
+/* ************************************************************************** */
+/* Hello */
+div#main-header span{
+  font-family: 'Poppins', sans-serif;
+  font-size: 150px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+   text-align: center;
+   padding: 0px 0px 0px 0px;;
+   margin: 0px 0px 0px 0px;
+   /* left: 80px; */
+   position: relative;
+}
+/* ************************************************************************** */
+/* Managing domains has never been so cool. */
+div#sub-header h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  width:40%;
+  color: #a2a2a2;
+  text-align: center;
+  display: block;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+/* ************************************************************************** */
+/* sign up for FREE */
+.blue-button {
+  border-radius: 35px;
+  background-color: #32aefe; /* Blue */
+  border: solid #32aefe;
+  height:50px;
+  padding: 3px 15px;
+  display: block;
+  margin-top:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+button{
+  font-family:'Roboto', sans-serif;
+  text-align: center;
+  color:white;
+  font-size:14px;
+}
+/* ************************************************************************** */
+
+div#navigation {
+  position:sticky;
+  right:80px;
+  width:30%;
+}
+
+button{
+  display:block;
+  cursor: pointer;
+  border-radius: 35px;
+  background-color: #32aefe;
+  border: none;
+  width:175px;
+  height:50px;
+  color: black;
+  margin-top:0px;
+  margin-left:auto;
+  margin-right:auto;
+}
+button{
+  font-family:'Roboto', sans-serif;
+  text-align: center;
+  color:white;
+  font-size:14px;
+}
+/* ************************************************************************** */
+div#login {
+  position: relative;
+  float: right;
+  /* width: 30%; */
+}
+
+.login {
+  padding: 30px;
+  position:relative;
+  top:-15px;
+}
+
+.signup {
+  border: 1px solid #c7c7c7 ;
+  color: black;
+  border-radius: 40px;
+  padding: 10px 25px;
+  height: 30px;
+  position:relative;
+  top:-15px;
+}
+
+/* ************************************************************************** */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+li {
+  display: inline;
+  position:relative;
+  top:15px;
+}
+
+a {
+  text-decoration: none;
+  padding: 8px;
+  color: #a2a2a2;
+}
+
+.active {
+  text-decoration: underline;
+  color: black;
+}
