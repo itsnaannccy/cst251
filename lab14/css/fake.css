@@ -1,0 +1,22 @@
+
+div.bk-img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+img {
+  width: 100%;
+  position: relative;
+
+}
+
+.title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-family:'Raleway', sans-serif;
+  font-size: 135px;
+}
