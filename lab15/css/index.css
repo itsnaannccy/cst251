@@ -44,9 +44,9 @@ body {
 .image img{
   float: right;
   margin: 20px;
-  width:200px;
-  height:300px;
-  object-fit: cover;
+   width:200px; 
+  /* height:300px; */
+  /* object-fit: cover; */
   border: solid 5px #878583;
   filter: blur(3px);
   box-shadow: 5px 5px 15px black;

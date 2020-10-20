@@ -22,6 +22,7 @@ body {
   border: ridge 10px white;
   /* position:relative;
   display:inline-block; */
+  box-shadow: 5px 5px 15px black;
 }
 
 p {
@@ -84,6 +85,7 @@ div.img2 img{
   color:DimGrey;
   text-transform: uppercase;
   word-spacing:10px;
+    text-shadow: 2px 2px 3px #878583;
 }
 
 .title{
@@ -92,6 +94,7 @@ div.img2 img{
   text-align: center;
   word-spacing:15px;
   text-transform: capitalize;
+    text-shadow: 2px 2px 3px #878583;
 }
 
 .labs{
@@ -100,4 +103,5 @@ div.img2 img{
   /* text-align: left; */
   word-spacing:15px;
   text-transform: capitalize;
+    text-shadow: 2px 2px 3px #878583;
 }
