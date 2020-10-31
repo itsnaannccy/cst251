@@ -1,0 +1,87 @@
+header {
+  text-align: center;
+  border:1px solid black;
+
+}
+
+nav{
+  text-align: center;
+  border:1px solid black;
+}
+
+.links {
+  font-family: 'IBM Plex Mono';
+  font-size: 20px;
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  word-spacing:-3px;
+  position: absolute;
+  display: block
+  top:0px;
+  left: 30px;
+  right: 30px;
+  border: 10px ridge Azure;
+  background-color: LightCyan;
+}
+
+a, a:link{
+  color: Black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: SteelBlue;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0px;
+}
+
+main{
+  border:1px solid black;
+}
+
+aside{
+  border:1px solid black;
+}
+
+footer{
+  display:block;
+  text-align: center;
+  border:1px solid black;
+}
+
+/* body {
+  font-family: 'Zilla Slab', serif;
+  color: black;
+  background: white;
+
+} */
+
+/* #links {
+
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+
+} */
+
+/* .title {
+  font-family: 'Varela Round', sans-serif;
+  letter-spacing: 2px;
+  color: #000000;
+  /* page-break-inside: auto; */
+}
+
+/* .main-header {
+  font-family: 'DM Serif Display', serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px #878583;
+  color: Maroon;
+} */ 

@@ -1,0 +1,26 @@
+/* grid-box {
+ display: grid;
+ grid-template-columns: 50% 50% 50%;
+ grid-gap: 5px 10px;
+} */
+
+.item1 { grid-area: header; }
+.item2 { grid-area: links; }
+.item3 { grid-area: main; }
+.item4 { grid-area: aside; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'links main main main main aside'
+    'footer footer footer footer footer footer';
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  /* padding: 20px 0; */
+}

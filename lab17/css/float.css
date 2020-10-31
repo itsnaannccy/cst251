@@ -1,0 +1,45 @@
+
+.wrapper {
+  width: auto;
+  margin: 5 auto;
+  /* border: 5px solid red; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.header {
+  text-align: center;
+  padding: 15px;
+  height:100px;
+}
+
+
+#links {
+  float:left;
+  width: 20%;
+  height: 300px;
+  text-align:center;
+}
+
+#main {
+  float:left;
+  width: 60%;
+  height:300px;
+  text-align:center;
+}
+
+#aside{
+  width: 20%;
+  float:right;
+  height: 300px;
+  text-align:center;
+}
+
+.footer {
+  padding: 15px;
+  clear: both;
+  height: 100px;
+}

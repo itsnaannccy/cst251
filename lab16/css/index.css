@@ -2,11 +2,13 @@ a {
   padding: 10px;
   background-color: #dddddd;
      background: Salmon;
+     transition-duration: 2s;
 }
 
 a:hover {
   background: SeaShell;
   transform: rotate(180deg);
+
 }
 
 body {

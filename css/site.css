@@ -7,12 +7,13 @@ div#content{
 }
 
 body {
-  background-color: lightblue;
+  background-color: lightblue; 
   outline-offset: 15px;
   font-family: verdana;
   font-size: 20px;
   word-spacing:7px;
   margin:30px;
+  /* background: url(../img/bakground.jpeg); */
 }
 
 .image img{
