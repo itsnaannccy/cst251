@@ -1,0 +1,110 @@
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Style the body */
+  body {
+    /* font-family: Arial; */
+    margin: 5;
+    font-family: 'Signika', sans-serif;
+  }
+
+.main-header{
+  font-family: 'Signika', sans-serif;
+}
+
+.title{
+  font-family: 'Itim', cursive;
+}
+  /* Header/logo Title */
+  .header {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    color: SteelBlue;
+  }
+
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .links {
+    flex: 20%;
+    padding: 20px;
+    /* width:auto; */
+    height:auto;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'IBM Plex Mono';
+    font-size: 20px;
+    list-style-type: none;
+    width:20%;
+    margin-top: 10px;
+  }
+
+  a, a:link{
+    color: Black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    background-color: SteelBlue;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+  }
+
+  .img{
+   border: 1px solid black;
+   margin-top: 10px;
+   text-align: center;
+  }
+
+  /* Main column */
+  .main {
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    width:50%;
+    margin-top: 10px;
+  }
+
+  .aside{
+    flex: 30%;
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: center;
+     width:30%;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
+    /* background: #ddd; */
+  }
+
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .row, .links, .main, .aside {
+      flex-direction: column;
+      width:100%;
+    }
