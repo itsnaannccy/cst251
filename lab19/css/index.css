@@ -1,0 +1,32 @@
+*{
+  box-sizing:border-box;
+}
+.row {
+  border: solid 1px red;
+  margin-top: 20px;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.col {
+  border: solid 1px purple;
+  height: auto;
+  flex-basis:0;
+  flex-grow:1;
+  max-width:100%;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+li {
+  list-style-type: none;
+}
+
+nav{
+  margin-top: 10px;
+}
