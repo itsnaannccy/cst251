@@ -2,14 +2,14 @@
   box-sizing:border-box;
 }
 .row {
-  border: solid 1px red;
+  border: solid 1px black;
   margin-top: 20px;
   display:flex;
   flex-wrap:wrap;
 }
 
 .col {
-  border: solid 1px purple;
+  border: solid 1px black;
   height: auto;
   flex-basis:0;
   flex-grow:1;
