@@ -7,7 +7,7 @@ div#content{
 }
 
 body {
-  background-color: lightblue; 
+  background-color: lightblue;
   outline-offset: 15px;
   font-family: verdana;
   font-size: 20px;
@@ -39,12 +39,12 @@ p {
   margin: 10px;
   padding: 0;
   word-spacing:-3px;
-  position: absolute;
-  display: block
+  /* position: absolute;
+  display: block */
   top:0px;
   left: 30px;
   right: 30px;
-  border: 10px ridge Azure;
+  /* border: 10px ridge Azure; */
   background-color: LightCyan;
 }
 
